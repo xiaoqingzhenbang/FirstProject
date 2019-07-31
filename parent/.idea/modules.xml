@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/kong-service-customer/kong-service-customer.iml" filepath="$PROJECT_DIR$/kong-service-customer/kong-service-customer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kong-service-privoder/kong-service-privoder.iml" filepath="$PROJECT_DIR$/kong-service-privoder/kong-service-privoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" filepath="$PROJECT_DIR$/springboot_eureka/springboot_eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_httpclient/springboot_httpclient.iml" filepath="$PROJECT_DIR$/springboot_httpclient/springboot_httpclient.iml" />
+    </modules>
+  </component>
+</project>
