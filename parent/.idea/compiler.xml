@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kong-eureka" />
+        <module name="kong-eureka2" />
         <module name="kong-service-customer" />
         <module name="kong-service-privoder" />
         <module name="springboot_eureka" />
@@ -13,6 +15,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="kong-eureka" target="1.8" />
+      <module name="kong-eureka2" target="1.8" />
       <module name="kong-service-customer" target="1.8" />
       <module name="kong-service-privoder" target="1.8" />
       <module name="parent" target="1.5" />

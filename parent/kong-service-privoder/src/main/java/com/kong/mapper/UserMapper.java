@@ -11,7 +11,6 @@ import sun.awt.SunHints;
  * Created by xuebi on 2019/7/31.
  */
 
-@Repository
 public interface UserMapper{
 
     @Select("SELECT * FROM user WHERE id = #{id}")

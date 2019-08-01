@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/kong-eureka/kong-eureka.iml" filepath="$PROJECT_DIR$/kong-eureka/kong-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kong-eureka2/kong-eureka2.iml" filepath="$PROJECT_DIR$/kong-eureka2/kong-eureka2.iml" />
       <module fileurl="file://$PROJECT_DIR$/kong-service-customer/kong-service-customer.iml" filepath="$PROJECT_DIR$/kong-service-customer/kong-service-customer.iml" />
       <module fileurl="file://$PROJECT_DIR$/kong-service-privoder/kong-service-privoder.iml" filepath="$PROJECT_DIR$/kong-service-privoder/kong-service-privoder.iml" />
       <module fileurl="file://$PROJECT_DIR$/parent.iml" filepath="$PROJECT_DIR$/parent.iml" />

@@ -1,2 +1,9 @@
 server:
   port: 8082
+spring:
+  application:
+    name: kong-service-customer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:8083/eureka,http://eureka2:8084/eureka

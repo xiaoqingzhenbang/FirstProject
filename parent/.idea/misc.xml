@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/springboot_eureka/pom.xml" />
         <option value="$PROJECT_DIR$/kong-service-privoder/pom.xml" />
         <option value="$PROJECT_DIR$/kong-service-customer/pom.xml" />
+        <option value="$PROJECT_DIR$/kong-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/kong-eureka2/pom.xml" />
       </list>
     </option>
   </component>
