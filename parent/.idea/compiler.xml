@@ -10,6 +10,7 @@
         <module name="kong-eureka2" />
         <module name="kong-service-customer" />
         <module name="kong-service-privoder" />
+        <module name="kong-zuul" />
         <module name="springboot_eureka" />
         <module name="springboot_httpclient" />
       </profile>
@@ -19,6 +20,7 @@
       <module name="kong-eureka2" target="1.8" />
       <module name="kong-service-customer" target="1.8" />
       <module name="kong-service-privoder" target="1.8" />
+      <module name="kong-zuul" target="1.8" />
       <module name="parent" target="1.5" />
       <module name="springboot_eureka" target="1.8" />
       <module name="springboot_httpclient" target="1.8" />

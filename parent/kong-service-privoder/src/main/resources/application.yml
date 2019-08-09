@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8082
 spring:
   datasource:
     username: root
@@ -11,5 +11,5 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka1:8083/eureka,http://eureka2:8084/eureka
+      defaultZone: http://eureka:8083/eureka,http://eureka2:8084/eureka
 

@@ -1,0 +1,15 @@
+server:
+  port: 8086
+spring:
+  application:
+    name: kong-zuul
+zuul:
+  routes:
+    kong-service-customer: /kong-service-customer/**
+#      path: /kong-service-customer/**
+#      url: http://localhost:8085
+#      serviceId: kong-service-customer
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka:8083/eureka,http://eureka2:8084/eureka

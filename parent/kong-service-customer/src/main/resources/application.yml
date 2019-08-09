@@ -1,9 +1,12 @@
 server:
-  port: 8082
+  port: 8085
 spring:
   application:
     name: kong-service-customer
 eureka:
   client:
     service-url:
-      defaultZone: http://eureka1:8083/eureka,http://eureka2:8084/eureka
+      defaultZone: http://eureka:8083/eureka,http://eureka2:8084/eureka
+feign:
+  hystrix:
+    enabled: true
