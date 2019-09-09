@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/boot-user-service-consumer/boot-user-service-consumer.iml" filepath="$PROJECT_DIR$/dubboproject/boot-user-service-consumer/boot-user-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/boot-user-service-privoder/boot-user-service-privoder.iml" filepath="$PROJECT_DIR$/dubboproject/boot-user-service-privoder/boot-user-service-privoder.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/dubboproject.iml" filepath="$PROJECT_DIR$/dubboproject/dubboproject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/user-interface/user-interface.iml" filepath="$PROJECT_DIR$/dubboproject/user-interface/user-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/user-service-consumer/user-service-consumer.iml" filepath="$PROJECT_DIR$/dubboproject/user-service-consumer/user-service-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubboproject/user-service-privoder/user-service-privoder.iml" filepath="$PROJECT_DIR$/dubboproject/user-service-privoder/user-service-privoder.iml" />
+    </modules>
+  </component>
+</project>
