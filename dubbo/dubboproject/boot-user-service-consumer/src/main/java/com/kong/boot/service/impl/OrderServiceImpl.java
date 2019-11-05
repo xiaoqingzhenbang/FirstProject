@@ -7,7 +7,8 @@ import com.kong.bean.UserAddress;
 import com.kong.service.OrderService;
 import com.kong.service.UserService;
 import org.apache.dubbo.config.annotation.Reference;
-import org.springframework.stereotype.Service;
+import org.apache.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
@@ -19,10 +20,11 @@ import java.util.List;
  * @Version 1.0
  */
 
+@Component
 @Service
 public class OrderServiceImpl implements OrderService {
 
-    @Reference
+    @Reference(check = false,timeout = 3000)
     UserService userService;
 
     public void initOrder(String userId) {

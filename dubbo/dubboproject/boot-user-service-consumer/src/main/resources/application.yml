@@ -6,5 +6,8 @@ dubbo:
   registry:
     protocol: zookeeper
     address: 47.93.245.225:2181
+  protocol:
+    name: dubbo
+    port: 20881
   monitor:
     protocol: registry
