@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spirng-boot-mongodb
+  data:
+    mongodb:
+      host: 47.93.245.225
+      port: 27017
+      database: test
+      collectionName: mongoDbDao
