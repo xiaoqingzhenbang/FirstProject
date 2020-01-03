@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * @ClassName consumer
- * @Description TODO
+ * @Description 直连型消费者
  * @Author kongdeqi
  * @Date 2019/12/30 15:39
  * @Version 1.0

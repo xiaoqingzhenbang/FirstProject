@@ -1,5 +1,5 @@
-package com.kong.simple;/**
- * Created by xuebi on 2019/12/30.
+package com.kong.dlx;/**
+ * Created by xuebi on 2019/12/31.
  */
 
 import com.rabbitmq.client.Channel;
@@ -10,15 +10,15 @@ import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
 /**
- * @ClassName producer
- * @Description 直连型生产者
+ * @ClassName dlxProducer
+ * @Description 死信队列生产者
  * @Author kongdeqi
- * @Date 2019/12/30 15:21
+ * @Date 2019/12/31 11:19
  * @Version 1.0
  */
-public class producer {
+public class dlxProducer {
 
-    public static String EXCHANGE_NAME = "SIMPLE_EXCHANGE";
+    public static String EXCHANGE_NAME = "COMMON_EXCHANGE";
 
     public static void main(String[] args) throws IOException, TimeoutException {
         //配置工厂
@@ -35,7 +35,7 @@ public class producer {
         //消息
         String msg = "Hello World,Rabbit MQ";
         //发布消息
-        channel.basicPublish(EXCHANGE_NAME,"gupao.best",null,msg.getBytes());
+        channel.basicPublish(EXCHANGE_NAME,"COMMON_ROUTE",null,msg.getBytes());
         //关闭流
         channel.close();
         connection.close();

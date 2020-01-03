@@ -14,7 +14,7 @@ import java.util.concurrent.TimeoutException;
 
 /**
  * @ClassName ttlProducer
- * @Description TODO
+ * @Description 设置过期型生产者
  * @Author kongdeqi
  * @Date 2019/12/30 17:00
  * @Version 1.0
@@ -37,10 +37,10 @@ public class ttlProducer {
         String msg = "Hello World,Rabbit MQ";
 
         //对队列设置过期时间
-        Map params = new HashMap();
-        params.put("x-message-ttl",6000);
+//        Map params = new HashMap();
+//        params.put("x-message-ttl",6000);
         //声明队列
-        channel.queueDeclare("TEST_TTL_QUEUE",false,false,false,params);
+//        channel.queueDeclare("TEST_TTL_QUEUE",false,false,false,params);
 
         //对每条消息设置过期
         AMQP.BasicProperties properties = new AMQP.BasicProperties.Builder()
@@ -51,7 +51,7 @@ public class ttlProducer {
 
         //两种方式如果同时设置，以最小的过期时间为准
         //发送消息
-        channel.basicPublish("TEST_TTL_EXCHANGE","TEST_TTL_QUEUE",properties,msg.getBytes());
+        channel.basicPublish("","TTL_QUEUE",properties,msg.getBytes());
         //关闭流
         channel.close();
         connection.close();
